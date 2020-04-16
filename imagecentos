@@ -9,4 +9,3 @@ WORKDIR /var/www/html/
 EXPOSE 80
 
 ENTRYPOINT ["httpd"]
-CMD ["-D","FOREGROUND"]
